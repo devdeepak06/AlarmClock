@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(109.6deg, rgba(254, 253, 205, 1) 11.2%, rgba(163, 230, 255, 1) 91.1%);
+}
+
+.main-container {
+    height: 650px;
+    width: 500px;
+    margin-top: 1rem;
+    border: 2px solid rgb(113, 1, 1);
+    border-radius: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(109.6deg, rgb(253, 251, 128) 11.2%, rgb(61, 252, 163) 91.1%);
+}
+
+.clock-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.image {
+    width: 100px;
+    margin-bottom: 38px;
+    border-radius: 50%;
+}
+
+#local-time {
+    padding: 40px 80px;
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+    background-image: linear-gradient(109.6deg, rgba(254, 253, 205, 1) 11.2%, rgba(163, 230, 255, 1) 91.1%);
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+    border: 2px solid lightgray;
+    border-radius: 5rem;
+    font-size: 1rem;
+    padding: 4px 40px;
+    cursor: pointer;
+
+}
+
+.buttons {
+    margin-top: 40px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 12px 35px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 1.5rem;
+    background: rgb(1, 206, 1);
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.stopAlarm {
+    background-color: rgb(253, 18, 18);
+}
+
+.active {
+    transform: rotate(25deg);
+    transition: 0.1s;
+}
