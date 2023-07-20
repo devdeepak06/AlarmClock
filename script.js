@@ -3,7 +3,7 @@ const clock = document.querySelector("#local-time");
 const image = document.getElementById("clock-image");
 
 //define the audio file that will be played on alarm trigger and set it to loop 
-const audio = new Audio("./assets/alarm_clock.mp3");
+const audio = new Audio("alarm_clock.mp3");
 audio.loop = true;
 
 //here we are defining the variables that will be used to set the alarm
